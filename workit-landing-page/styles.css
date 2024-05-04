@@ -1,0 +1,249 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #24053e;
+  border-end-start-radius: 2250px 100px;
+  direction: 1tr;
+  border-end-end-radius: 2250px 100px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-logo {
+  width: 5.98513rem;
+  height: 1.538rem;
+  margin: 2rem;
+}
+.top-access {
+  color: #fff;
+  cursor: pointer;
+  text-decoration: underline 3px solid #44ffa1;
+  padding-bottom: 0.5rem;
+  margin: 2rem;
+  text-underline-offset: 30%;
+  font-family: manrope;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 2rem;
+}
+.top-access:hover {
+  color: #44ffa1;
+}
+.btn-learn {
+  background-color: #44ffa1;
+  color: #24053e;
+  text-align: center;
+  font-family: manrope;
+  font-style: normal;
+  font-weight: 700;
+  width: 161px;
+  height: 61px;
+  padding: 13px;
+  text-decoration: none;
+  position: relative;
+  left: 15rem;
+  top: 2rem;
+}
+.btn-learn:hover {
+  background-color: #24053e;
+  color: #44ffa1;
+  border: 2px solid #44ffa1;
+}
+.header-container h1 {
+  color: #fff;
+  text-align: center;
+  font-size: 5rem;
+  font-weight: 600;
+  font-style: normal;
+  line-height: 5rem;
+  width: 39rem;
+}
+span {
+  text-decoration: underline 3px #44ffa1;
+  text-underline-offset: 10%;
+}
+.header-low {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.oval-left {
+  height: 215.102px;
+  width: 270.294px;
+  position: relative;
+  left: -9rem;
+  top: -12rem;
+  transform: rotate(-171deg);
+}
+.oval-right {
+  height: 215.102px;
+  width: 270.294px;
+  position: relative;
+  left: 9rem;
+  top: -1rem;
+  transform: rotate(6deg);
+}
+.image-hero {
+  width: 702px;
+  height: 405px;
+  position: relative;
+  top: 7rem;
+  right: 0rem;
+}
+
+.container {
+  background-color: #fcf8ff;
+  display: flex;
+  align-items: center;
+  border-end-end-radius: 2250px 100px;
+  direction: ltr;
+  border-end-start-radius: 2250px 100px;
+  height: 600px;
+}
+.row {
+  display: flex;
+  justify-content: center;
+  width: 1114px;
+  height: 308px;
+  padding: 5rem 0 0 4rem;
+  background-color: #fcf8ff;
+}
+.row h3 {
+  text-align: center;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 40px;
+}
+.row p {
+  color: #24053e;
+  text-align: center;
+  font-family: manrope;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  width: 300px;
+  position: relative;
+  top: 1rem;
+  margin: 1rem;
+}
+
+.round {
+  border: 1px solid #584d62;
+  border-radius: 30px;
+  padding: 20px 22px;
+  height: 60px;
+  width: 60px;
+  position: relative;
+  left: 10rem;
+  bottom: 2rem;
+  text-align: center;
+}
+.ceo__founder {
+  width: 450.287px;
+  height: 453px;
+  position: relative;
+  top: -5rem;
+  left: 5rem;
+}
+.founder__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15rem 0;
+}
+
+.founder__row {
+  display: flex;
+  justify-content: center;
+}
+.founder-box__text {
+  width: 730px;
+  height: 413px;
+  background-color: #24053e;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 4;
+  position: relative;
+  top: 5rem;
+}
+.founder-box__text h3 {
+  color: #fff;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 64px;
+  position: relative;
+  top: -2rem;
+  right: 5.5rem;
+}
+
+.founder-box__text p {
+  color: #fff;
+  font-family: Manrope;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  width: 602px;
+}
+.btn__access {
+  background-color: #44ffa1;
+  color: #24053e;
+  text-align: center;
+  font-family: 18px;
+  font-style: normal;
+  font-weight: 700;
+  width: 161px;
+  height: 61px;
+  padding: 20px;
+  text-decoration: none;
+  position: relative;
+  top: 2rem;
+  right: 13.9rem;
+  letter-spacing: -0.18px;
+}
+
+.btn__access:hover {
+  background-color: #24053e;
+  color: var(--Eucalyptus);
+  border: 2px solid #44ffa1;
+}
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.footer__row {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 116px;
+  height: 102.224px;
+}
+
+.icon__list a {
+  margin: 20px 14px;
+  position: relative;
+  right: 1rem;
+}
+
+.icon__list > li {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 1rem 0rem;
+}
